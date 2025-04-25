@@ -1,0 +1,1 @@
+export default function Home() { return <div className='p-4'>🏠 홈 화면입니다</div>; }

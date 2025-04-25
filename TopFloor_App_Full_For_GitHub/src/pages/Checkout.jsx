@@ -1,0 +1,1 @@
+export default function Checkout() { return <div className='p-4'>💳 결제</div>; }
