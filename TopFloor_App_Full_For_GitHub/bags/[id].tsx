@@ -1,0 +1,1 @@
+export default function BagDetail() { return <div>Bag Detail Page</div>; }

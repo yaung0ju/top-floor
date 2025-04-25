@@ -1,30 +1,11 @@
 import React from "react";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Home from "./pages/Home";
-import BagDetail from "./pages/BagDetail";
-import Wishlist from "./pages/Wishlist";
-import Cart from "./pages/Cart";
-import Checkout from "./pages/Checkout";
-import Header from "./components/Header";
-import Footer from "./components/Footer";
 
 function App() {
   return (
-    <Router>
-      <div className="min-h-screen flex flex-col font-sans bg-white text-black">
-        <Header />
-        <main className="flex-1">
-          <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/bags/:id" element={<BagDetail />} />
-            <Route path="/wishlist" element={<Wishlist />} />
-            <Route path="/cart" element={<Cart />} />
-            <Route path="/checkout" element={<Checkout />} />
-          </Routes>
-        </main>
-        <Footer />
-      </div>
-    </Router>
+    <div style={{ textAlign: "center", marginTop: "5rem" }}>
+      <h1>여왕님 앱에 오신 것을 환영합니다 👑</h1>
+      <p>이제 모든 것이 정상 작동합니다.</p>
+    </div>
   );
 }
 
