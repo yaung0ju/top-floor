@@ -1,0 +1,1 @@
+export default function Bags() { return <div>Bags List</div>; }

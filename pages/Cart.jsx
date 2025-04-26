@@ -1,0 +1,1 @@
+export default function Cart() { return <div className='p-4'>🛒 장바구니</div>; }

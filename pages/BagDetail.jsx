@@ -1,0 +1,1 @@
+export default function BagDetail() { return <div className='p-4'>👜 가방 상세</div>; }
